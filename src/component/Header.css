@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top:0px;
+    position: sticky;
+    z-index: 100;
+    }
+
+.RightOne{
+    flex:1
+}
+
+.logo{
+    width: 100px;
+    margin: 0px 20px;
+    margin-left: 50px;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__options{
+    display: flex;
+    margin-left: 20px;
+    margin-right:30px ;
+}
+
+.option3{
+    margin-right: 100px;
+}
+
+.nav__options:hover{
+    color: #332FD0
+}

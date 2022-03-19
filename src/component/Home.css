@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.head__line{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.head__line>h1{
+    margin-bottom: 10px;
+}
+
+.tag__line{
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.avatar__image{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.computer__image{
+    margin-top: 100px;
+}
