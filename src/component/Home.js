@@ -1,5 +1,21 @@
 import React from "react";
 import "./Home.css";
+import Skill from "./Skill";
+import features from "./Feature";
+
+function createSkill(feature) {
+  return (
+    <Skill
+      title={feature.title}
+      image={feature.image}
+      about={feature.about}
+      head={feature.head}
+      property={feature.property}
+      toolhead={feature.toolhead}
+      tools={feature.tools}
+    />
+  );
+}
 
 function Home() {
   return (
@@ -29,9 +45,37 @@ function Home() {
       </div>
 
       <div className="banner">
-        <div className="head"></div>
+        <div className="head">
+          <h2> Hi, I'm Harshit. Nice to meet you </h2>
+        </div>
         <div className="description">
-          <p></p>
+          <p>
+            Since , I started my journey in Web Dev from my frist year of my
+            college ,I have enough knowledge about front-end langauages
+            currently work with react.js framwork. mine upcoming target is to
+            learn more about back-end . and eargly willing to work as a
+            freelancer for business and comsumers users.
+          </p>
+        </div>
+      </div>
+      <div className="work">
+        <div className="skills">{features.map(createSkill)}</div>
+      </div>
+
+      <div className="let_start">
+        <div className="box">
+          <div className="headings">
+            <h1 class="title">Start a project</h1>
+          </div>
+          <div className="data">
+            <p>
+              Intersted in working together? We should queue up a chat . I'll
+              buy the coffee.
+            </p>
+          </div>
+          <div className="btn">
+            <button className="btn_inside"></button>
+          </div>
         </div>
       </div>
     </div>

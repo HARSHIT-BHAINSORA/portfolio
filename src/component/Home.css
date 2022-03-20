@@ -1,4 +1,4 @@
-.container{
+.container {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -23,11 +23,79 @@
 }
 
 .avatar__image{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-top: 60px;
 }
 
 .computer__image{
     margin-top: 100px;
+}
+
+.banner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #332FD0 ;
+    height:800px;
+    margin-bottom: -300px;
+}
+
+.head{
+    margin-top: 100px;
+    padding-top: 20px;
+    font-size:20px;
+    font-weight: bold;
+    color:white
+}
+
+.description{
+    margin-left:300px;
+    margin-right:250px;
+    color: white;
+    font-size:20px;
+    line-height: 1.5;
+    word-break: break-word;
+    text-align: center;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px ;
+    background-color:#FDF6EC;
+    border-radius: 10px;
+    height: 800px;
+}
+
+.work{
+    height:1000px;
+    margin-bottom: -100px;
+}
+
+.box{
+    margin: 0px 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color:#0E185F;
+    
+}
+
+
+.headings{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.data > p{
+    word-break: break-word;
+    text-align: center;
+    color: white;
 }
