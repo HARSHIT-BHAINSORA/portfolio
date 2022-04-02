@@ -34,7 +34,7 @@
 }
 
 
- .nav__options  :focus, :visited,:link, :active {
+ .nav__options  :focus, :visited,:link {
         text-decoration: none;
         color: black;
     }

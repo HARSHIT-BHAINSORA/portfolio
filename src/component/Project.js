@@ -1,9 +1,13 @@
 import React from "react";
+import "./Project.css";
 
 function Project() {
   return (
     <div>
-      <h1>Hi i ,am Project</h1>
+      <div className="project_head">
+        <h1>My Projects</h1>
+      </div>
+      <hr></hr>
     </div>
   );
 }
