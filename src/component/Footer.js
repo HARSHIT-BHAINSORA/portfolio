@@ -12,12 +12,11 @@ function Footer() {
           <h4>Living ,learning & leveling up one day at a time.</h4>
         </div>
         <div className="soical_media">
-          <a
-            href={"http://www.linkedin.com/in/harshit-bhainsora-788809202"}
-            target={"_blank"}
-          >
-            <button className="btnn">hi</button>
-          </a>
+          <button>
+            <a href="https://www.google.com/" target={"_blank"}>
+              hi
+            </a>
+          </button>
 
           <button className="btnn"></button>
           <button className="btnn"></button>

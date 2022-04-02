@@ -33,6 +33,19 @@
     margin-right: 100px;
 }
 
-.nav__options:hover{
-    color: #332FD0
+
+ .option1 , option2 , option3  :focus, :hover, :visited,:link, :active {
+        text-decoration: none;
+        color: black;
+    }
+
+.option1:hover{
+    color: #332FD0;
+}
+.option2:hover{
+    color: #332FD0;
+}
+
+.option3:hover{
+    color: #332FD0;
 }
