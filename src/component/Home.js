@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Skill from "./Skill";
 import features from "./Feature";
+import Footer from "./Footer";
 
 function createSkill(feature) {
   return (
@@ -68,16 +69,20 @@ function Home() {
             <h1 class="title">Start a project</h1>
           </div>
           <div className="data">
-            <p>
+            <p className="para">
               Intersted in working together? We should queue up a chat . I'll
               buy the coffee.
             </p>
           </div>
           <div className="btn">
-            <button className="btn_inside"></button>
+            <button className="btn_inside">
+              <span>Let's Connect</span>
+            </button>
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

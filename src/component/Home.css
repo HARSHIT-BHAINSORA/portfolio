@@ -83,7 +83,8 @@
     justify-content: center;
     justify-content: space-evenly;
     background-color:#0E185F;
-    
+    height: 150px;
+    border-radius: 20px;
 }
 
 
@@ -94,8 +95,30 @@
 }
 
 
-.data > p{
+.para{
     word-break: break-word;
     text-align: center;
     color: white;
+    width:400px;    
+}
+
+
+.btn_inside{
+    width: 200px;
+    height : 60px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    border: #332FD0 solid 2px;
+    background-color: #0E185F;
+    color:white;
+}
+
+.btn_inside:hover{
+    background-color: #332FD0;
+}
+
+.let_start{
+    margin-bottom: -100px;
+   
 }
