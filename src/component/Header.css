@@ -34,10 +34,12 @@
 }
 
 
- .option1 , option2 , option3  :focus, :hover, :visited,:link, :active {
+ .nav__options  :focus, :visited,:link, :active {
         text-decoration: none;
         color: black;
     }
+
+ 
 
 .option1:hover{
     color: #332FD0;
