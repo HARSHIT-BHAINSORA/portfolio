@@ -1,3 +1,39 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
+
+
+#light{
+    background-color: white;
+}
+
+#dark{
+    background-color:#2C3333;
+}
+
+.switch{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:100vx;
+    height: 100vx;
+    align-items: right;
+}
+
+.lable{
+    margin-right: 16px
+}
+.tbtn{
+    margin-right: 30px;
+}
+
+#light .lable{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#dark .lable{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}

@@ -29,17 +29,43 @@
     margin-right:30px ;
 }
 
+
 .option3{
     margin-right: 100px;
 }
 
 
- .nav__options  :focus, :visited,:link {
+.option1  :focus, :visited,:link {
         text-decoration: none;
         color: black;
     }
-
  
+#dark .option1 {
+    text-decoration: none;
+    color: white;
+}    
+
+
+
+.option2  :focus, :visited,:link {
+    text-decoration: none;
+    color: black;
+}
+
+#dark .option2{
+text-decoration: none;
+color: white;
+}    
+
+.option3  :focus, :visited,:link {
+    text-decoration: none;
+    color: black;
+}
+
+#dark .option3 {
+text-decoration: none;
+color: white;
+}    
 
 .option1:hover{
     color: #332FD0;
@@ -51,3 +77,15 @@
 .option3:hover{
     color: #332FD0;
 }
+
+#dark .option1:hover{
+    color: #332FD0;
+}
+#dark .option2:hover{
+    color: #332FD0;
+}
+
+#dark .option3:hover{
+    color: #332FD0;
+}
+

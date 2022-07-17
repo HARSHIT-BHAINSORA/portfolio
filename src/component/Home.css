@@ -22,6 +22,15 @@
     font-weight: lighter;
 }
 
+#dark .head__line {
+    color: white;
+}
+
+#dark .tag__line{
+    color: white;
+}
+
+
 .avatar__image {
     width: 200px;
     height: 200px;
@@ -41,6 +50,11 @@
     height: 800px;
     margin-bottom: -300px;
 }
+
+#dark .banner{
+    background-color: #395B64;
+}
+
 
 .head {
     margin-top: 100px;
@@ -69,6 +83,10 @@
     height: 800px;
 }
 
+#dark .skills{
+    background-color: #DDDDDD;
+}
+
 .work {
     height: 1000px;
     margin-bottom: -100px;
@@ -87,6 +105,12 @@
     /* width: 100px; */
     border-radius: 20px;
 }
+
+#dark .box{
+    background-color: #51557E;
+}
+
+
 
 .headings {
     color: white;
@@ -112,8 +136,20 @@
     color: white;
 }
 
+#dark .btn_inside{
+    background-color:#51557E ;
+    border: white solid 2px;
+}
+
 .btn_inside:hover {
     background-color: #332fd0;
+    transition: all 0.5s;
+}
+
+
+#dark .btn_inside:hover {
+    background-color: #395B64;
+    transition: all 0.5s;
 }
 
 .let_start {
