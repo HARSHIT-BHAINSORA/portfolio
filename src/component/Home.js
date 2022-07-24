@@ -40,7 +40,8 @@ function Home() {
         <div className="computer">
           <img
             className="computer__image"
-            src="https://mattfarley.ca/img/hero.svg"
+            src="https://mattfarley.ca/img/hero-devices.svg"
+            alt="computer"
           />
         </div>
       </div>

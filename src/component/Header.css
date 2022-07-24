@@ -13,9 +13,10 @@
 
 .logo{
     width: 100px;
-    margin: 0px 20px;
+    margin-top:10px;
     margin-left: 50px;
     object-fit: contain;
+    border-radius: 560px;
 }
 
 .navbar{
