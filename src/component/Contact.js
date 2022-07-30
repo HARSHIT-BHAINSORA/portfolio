@@ -8,6 +8,10 @@ function Contact() {
         <h1>Contacts</h1>
       </div>
       <hr></hr>
+      <div>
+        <img src={require("./image/photo3.gif")} />
+        <img src={require("./image/photo4.gif")} />
+      </div>
     </div>
   );
 }

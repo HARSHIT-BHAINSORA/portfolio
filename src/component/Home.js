@@ -3,6 +3,7 @@ import "./Home.css";
 import Skill from "./Skill";
 import features from "./Feature";
 import Footer from "./Footer";
+import Timeline from "./Timeline";
 
 function createSkill(feature) {
   return (
@@ -54,7 +55,7 @@ function Home() {
           <p>
             Since , I started my journey in Web Dev from my frist year of my
             college ,I have enough knowledge about front-end langauages
-            currently work with react.js framework. mine upcoming target is to
+            currently working in react.js framework. mine upcoming target is to
             learn more about back-end . and eargly willing to work as a
             freelancer for business and comsumers users.
           </p>
@@ -62,6 +63,9 @@ function Home() {
       </div>
       <div className="work">
         <div className="skills">{features.map(createSkill)}</div>
+      </div>
+      <div className="timeline">
+        <Timeline />
       </div>
       <Footer />
     </div>

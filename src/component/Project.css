@@ -3,7 +3,19 @@
     margin-top: 30px;
 }
 
+#dark .project_head{
+    color:white;
+}
+
 hr{
     margin: 0 30px;
     border:1px solid #332fd0;
 }
+
+.container2{
+    padding-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
