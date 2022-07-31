@@ -67,6 +67,71 @@ function Home() {
       <div className="timeline">
         <Timeline />
       </div>
+      <div>
+        <div className="languages">
+          <div className="image_languages">
+            <img
+              src={require("./image/photo4.gif")}
+              alt="coder_image"
+              className="code-image"
+            />
+          </div>
+          <div className="image_languages">
+            <h2 className="languages_header">
+              Languages / Tools I used to with...
+            </h2>
+            <div className="inner-languages">
+              <img
+                src={require("./image/c.png")}
+                alt="C Language"
+                className="L1"
+              />
+              <img
+                src={require("./image/c++.png")}
+                alt="C++ Language"
+                className="L2"
+              />
+              <img
+                src={require("./image/java.png")}
+                alt="Java Language"
+                className="L3"
+              />
+              <img
+                src={require("./image/html.png")}
+                alt="Html"
+                className="L4"
+              />
+
+              <img
+                src={require("./image/javascript.png")}
+                alt="Javascript"
+                className="L5"
+              />
+            </div>
+            <div className="inner-languages">
+              <img
+                src={require("./image/firebase.png")}
+                alt="firebase"
+                className="L6"
+              />
+              <img src={require("./image/css.png")} alt="CSS" className="L7" />
+              <img
+                src={require("./image/github.png")}
+                alt="github"
+                className="L8"
+              />
+            </div>
+            <div className="inner-languages">
+              <img
+                src={require("./image/react.png")}
+                alt="React"
+                className="L9"
+              />
+              <img src={require("./image/git.png")} alt="git" className="L10" />
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
