@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { SiInstagram } from "react-icons/si";
 
-const styleForButton = {};
-
 function Footer() {
   return (
     <div className="footer">
@@ -38,6 +36,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/harshit-bhainsora/"
             target={"_blank"}
+            rel="noreferrer"
             className="icon"
           >
             <FiLinkedin />
@@ -46,12 +45,18 @@ function Footer() {
           <a
             href="https://github.com/HARSHIT-BHAINSORA/portfolio.git/"
             target={"_blank"}
+            rel="noreferrer"
             className="icon"
           >
             <FiGithub />
           </a>
 
-          <a href="https://www.youtube.com/" target={"_blank"} className="icon">
+          <a
+            href="https://www.youtube.com/"
+            target={"_blank"}
+            rel="noreferrer"
+            className="icon"
+          >
             <SiInstagram />
           </a>
         </div>

@@ -11,7 +11,11 @@ function Contact() {
       <hr></hr>
       <div className="Contact_container">
         <div>
-          <img className="Contact_image" src={require("./image/photo3.gif")} />
+          <img
+            className="Contact_image"
+            src={require("./image/photo3.gif")}
+            alt=""
+          />
         </div>
         <div className="details">
           <form
