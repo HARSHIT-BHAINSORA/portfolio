@@ -22,11 +22,10 @@ function Timeline() {
             <h3 class="date">11 June, 2021</h3>
             <h1>Second Year</h1>
             <p>
-              In my second year, I mainly focus on the project so I started Web
-              Development and the actual implementation of Data Structure. at At
-              that time I also started practicing coding questions on the
-              platform such as hackerank, leetcode, and gfg which help me to
-              impove my logical reasoning.
+              In my second year, I mainly focus on the project so I started
+              learing Web Development with it I also started practicing coding
+              questions on the platform such as hackerank, leetcode, and gfg
+              which help me to impove my logical reasoning.
             </p>
           </div>
         </li>
