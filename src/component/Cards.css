@@ -1,5 +1,5 @@
 .card__image{
-    width: 658px;
+    width: 600px;
     height: 290px;
     border-radius: 10px;
     -webkit-box-shadow: 0 8px 6px -6px black;
@@ -71,8 +71,8 @@
     display: -webkit-box;
     max-height: 85px;
     overflow: hidden;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 30px;
     text-shadow: 0px 1px 5px black;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;

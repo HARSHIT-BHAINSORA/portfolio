@@ -16,6 +16,31 @@ hr{
     padding-top:50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Veiw-btn{
+    width: 400px;
+    height: 60px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    border: #0e185f solid 2px;
+    background-color:#332fd0 ;
+    margin-top: 100px;
+}
+
+.Veiw-btn > a > span{
+    color: white;
+}
+.Veiw-btn:hover {
+    background-color:  #0e185f;
+    transition: all 0.5s;
+}

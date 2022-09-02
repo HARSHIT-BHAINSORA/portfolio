@@ -142,10 +142,6 @@
     border: white solid 2px;
 }
 
-.btn_inside:hover {
-    background-color: #332fd0;
-    transition: all 0.5s;
-}
 
 
 #dark .btn_inside:hover {

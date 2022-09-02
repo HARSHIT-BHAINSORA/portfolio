@@ -51,36 +51,26 @@
     height: 30px;
 }
 
-.btnn {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 0.5px solid white;
-    background-color: #332fd0;
-}
 
-#dark .btnn
-{
-    background-color: #395B64;
-}
 
 .btnn:hover{
     background-color: white;
 }
 
 .icon{
-    font-size: large;
-    font-weight: bold;
+    font-size: 30px;
     color: white;
     margin-top: 10px;
 }
 
 .icon:hover{
-    font-size: large;
-    font-weight: bold;
-    color: #332fd0;
+    color: black;
 }
 
 #dark .icon:hover{
     color:#2C3333
+}
+
+.github{
+    color: black, 
 }

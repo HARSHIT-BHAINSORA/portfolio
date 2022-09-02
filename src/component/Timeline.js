@@ -7,46 +7,41 @@ function Timeline() {
       <ul>
         <li>
           <div class="timeline-content">
-            <h3 class="date">20th may, 2010</h3>
-            <h1>Heading 1</h1>
+            <h3 class="date">19 September 2020</h3>
+            <h1>First Year</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur tempora ab laudantium voluptatibus aut eos placeat
-              laborum, quibusdam exercitationem labore.
+              I started my first year of college in 2020, but it was in Online
+              mode 😊 and in that semesters I mainly focus on the basics of
+              Computer Science and C Language Although I have a little bit
+              experience in C++ ,HTML, and CSS also from my school.
             </p>
           </div>
         </li>
         <li>
           <div class="timeline-content">
-            <h3 class="date">20th may, 2010</h3>
-            <h1>Heading 2</h1>
+            <h3 class="date">11 June, 2021</h3>
+            <h1>Second Year</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur tempora ab laudantium voluptatibus aut eos placeat
-              laborum, quibusdam exercitationem labore.
+              In my second year, I mainly focus on the project so I started Web
+              Development and the actual implementation of Data Structure. at At
+              that time I also started practicing coding questions on the
+              platform such as hackerank, leetcode, and gfg which help me to
+              impove my logical reasoning.
             </p>
           </div>
         </li>
         <li>
           <div class="timeline-content">
-            <h3 class="date">20th may, 2010</h3>
-            <h1>Heading 3</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur tempora ab laudantium voluptatibus aut eos placeat
-              laborum, quibusdam exercitationem labore.
-            </p>
+            <h3 class="date">12 August 2022</h3>
+            <h1>Third Year</h1>
+            <p>Current At</p>
           </div>
         </li>
         <li>
           <div class="timeline-content">
-            <h3 class="date">20th may, 2010</h3>
-            <h1>Heading 4</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur tempora ab laudantium voluptatibus aut eos placeat
-              laborum, quibusdam exercitationem labore.
-            </p>
+            <h3 class="date">.....</h3>
+            <h1>.......</h1>
+            <p>Coming Soon</p>
           </div>
         </li>
       </ul>

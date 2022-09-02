@@ -1,6 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
+import { SiInstagram } from "react-icons/si";
+
+const styleForButton = {};
 
 function Footer() {
   return (
@@ -31,34 +35,25 @@ function Footer() {
           <h4>Living ,learning & leveling up one day at a time.</h4>
         </div>
         <div className="soical_media">
-          <button className="btnn">
-            <a
-              href="https://www.linkedin.com/in/harshit-bhainsora-788809202/"
-              target={"_blank"}
-            >
-              <span>
-                <p className="icon">in</p>
-              </span>
-            </a>
-          </button>
+          <a
+            href="https://www.linkedin.com/in/harshit-bhainsora/"
+            target={"_blank"}
+            className="icon"
+          >
+            <FiLinkedin />
+          </a>
 
-          <button className="btnn">
-            <a
-              href="https://github.com/HARSHIT-BHAINSORA/portfolio.git/"
-              target={"_blank"}
-            >
-              <span>
-                <p className="icon">git</p>
-              </span>
-            </a>
-          </button>
-          <button className="btnn">
-            <a href="https:youtube.com/" target={"_blank"}>
-              <span>
-                <p className="icon">f</p>
-              </span>
-            </a>
-          </button>
+          <a
+            href="https://github.com/HARSHIT-BHAINSORA/portfolio.git/"
+            target={"_blank"}
+            className="icon"
+          >
+            <FiGithub />
+          </a>
+
+          <a href="https://www.youtube.com/" target={"_blank"} className="icon">
+            <SiInstagram />
+          </a>
         </div>
         <div className="creator">
           <p>

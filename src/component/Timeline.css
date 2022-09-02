@@ -90,3 +90,10 @@
     }
   }
   
+  .date{
+    color: black;
+  }
+
+  #dark .date{
+    color: white;
+  }
